@@ -1,16 +1,16 @@
-import pytest
-from selenium import webdriver
+'''import pytest
+from selenium import webdriver'''
 from .pages.main_page import MainPage
 
 
-@pytest.fixture(scope="function")
+'''@pytest.fixture(scope="function")
 def browser():
     print("\nstart browser for test..")
     browser = webdriver.Chrome()
     browser.implicitly_wait(5)
     yield browser
     print("\nquit browser..")
-    browser.quit()
+    browser.quit()'''
 
 
 def test_guest_can_go_to_login_page(browser):
