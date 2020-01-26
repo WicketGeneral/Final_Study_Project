@@ -1,6 +1,7 @@
 '''import pytest
 from selenium import webdriver'''
 from .pages.main_page import MainPage
+from .pages.login_page import LoginPage
 
 
 '''@pytest.fixture(scope="function")
